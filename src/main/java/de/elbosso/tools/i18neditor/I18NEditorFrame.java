@@ -42,6 +42,19 @@ public class I18NEditorFrame extends javax.swing.JFrame
 
 	public static void main (java.lang.String[] args) throws Exception
 	{
+		try
+		{
+			java.util.Properties iconFallbacks = new java.util.Properties();
+			java.io.InputStream is=de.netsysit.util.ResourceLoader.getResource("de/elbosso/tools/icon_trans_material.properties").openStream();
+			iconFallbacks.load(is);
+			is.close();
+			de.netsysit.util.ResourceLoader.configure(iconFallbacks);
+		}
+		catch(java.io.IOException ioexp)
+		{
+			ioexp.printStackTrace();
+		}
+
 		de.netsysit.util.ResourceLoader.setSize(ResourceLoader.IconSize.small);
 		new I18NEditorFrame(i18n.getString("I18NEditor.app.title"));
 	}

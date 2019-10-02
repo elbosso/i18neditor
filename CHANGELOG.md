@@ -3,10 +3,10 @@
 Changelog of I18NEditor.
 
 
-**initial commit**
+**changelog creation activated**
 
 
-[9c3ef48086f17a3](https://github.com/elbosso/i18neditor/commit/9c3ef48086f17a3) Juergen Key *2019-10-02 05:45:47*
+[9b614a78aab349c](https://github.com/elbosso/i18neditor/commit/9b614a78aab349c) Juergen Key *2019-10-02 05:49:55*
 
 
 

@@ -172,12 +172,6 @@ WENN SIE AUF DIE MOEGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WORDEN SIND.
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
-            <artifactId>gfx</artifactId>
-            <version>0.1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>de.elbosso</groupId>
             <artifactId>jedittextarea</artifactId>
             <version>0.1.0-SNAPSHOT</version>
             <scope>compile</scope>
