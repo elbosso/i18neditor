@@ -45,7 +45,7 @@ public class I18NEditorFrame extends javax.swing.JFrame
 		try
 		{
 			java.util.Properties iconFallbacks = new java.util.Properties();
-			java.io.InputStream is=de.netsysit.util.ResourceLoader.getResource("de/elbosso/tools/icon_trans_material.properties").openStream();
+			java.io.InputStream is=de.netsysit.util.ResourceLoader.getResource("de/elbosso/ressources/data/icon_trans_material.properties").openStream();
 			iconFallbacks.load(is);
 			is.close();
 			de.netsysit.util.ResourceLoader.configure(iconFallbacks);

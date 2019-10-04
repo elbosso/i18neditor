@@ -3,6 +3,13 @@
 Changelog of I18NEditor.
 
 
+**fixes #1**
+
+
+[4e6b6042ab433b6](https://github.com/elbosso/i18neditor/commit/4e6b6042ab433b6) Juergen Key *2019-10-02 09:22:39*
+
+
+
 **changelog creation activated**
 
 
