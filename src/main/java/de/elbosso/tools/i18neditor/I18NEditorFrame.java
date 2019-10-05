@@ -27,7 +27,7 @@ public class I18NEditorFrame extends javax.swing.JFrame
 	public I18NEditorFrame(java.lang.String name) throws Exception
 	{
 		super(name);
-		setIconImage((de.netsysit.util.ResourceLoader.getIcon("de/netsysit/ressources/gfx/ca/encoding_48.png")).getImage());
+		setIconImage((de.netsysit.util.ResourceLoader.getIcon("de/elbosso/tools/logoicon.png")).getImage());
 		setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
 		ed=new I18NEditor();
 		setContentPane(ed);
@@ -40,23 +40,37 @@ public class I18NEditorFrame extends javax.swing.JFrame
 		addWindowListener(this);
 	}
 
-	public static void main (java.lang.String[] args) throws Exception
+	public static void main (java.lang.String[] args)
 	{
-		try
-		{
-			java.util.Properties iconFallbacks = new java.util.Properties();
-			java.io.InputStream is=de.netsysit.util.ResourceLoader.getResource("de/elbosso/ressources/data/icon_trans_material.properties").openStream();
-			iconFallbacks.load(is);
-			is.close();
-			de.netsysit.util.ResourceLoader.configure(iconFallbacks);
-		}
-		catch(java.io.IOException ioexp)
-		{
-			ioexp.printStackTrace();
-		}
+		javax.swing.SwingUtilities.invokeLater(new java.lang.Runnable()
+		   {
+			   @Override
+			   public void run()
+			   {
+				   try
+				   {
+					   java.util.Properties iconFallbacks = new java.util.Properties();
+					   java.io.InputStream is=de.netsysit.util.ResourceLoader.getResource("de/elbosso/ressources/data/icon_trans_material.properties").openStream();
+					   iconFallbacks.load(is);
+					   is.close();
+					   de.netsysit.util.ResourceLoader.configure(iconFallbacks);
+				   }
+				   catch(java.io.IOException ioexp)
+				   {
+					   ioexp.printStackTrace();
+				   }
 
-		de.netsysit.util.ResourceLoader.setSize(ResourceLoader.IconSize.small);
-		new I18NEditorFrame(i18n.getString("I18NEditor.app.title"));
+				   de.netsysit.util.ResourceLoader.setSize(de.netsysit.util.ResourceLoader.IconSize.small);
+				   try
+				   {
+					   new I18NEditorFrame(i18n.getString("I18NEditor.app.title"));
+				   } catch (Exception e)
+				   {
+				   	de.elbosso.util.Utilities.handleException(null,e);
+				   }
+			   }
+		   }
+		);
 	}
 
 	public void propertyChange(PropertyChangeEvent evt)

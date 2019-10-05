@@ -10,6 +10,11 @@ Changelog of I18NEditor.
 
 
 
+**custom material icons now in use**
+
+
+[b125c9796561e47](https://github.com/elbosso/i18neditor/commit/b125c9796561e47) Juergen Key *2019-10-04 06:11:07*
+
 **changelog creation activated**
 
 
