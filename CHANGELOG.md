@@ -10,6 +10,11 @@ Changelog of I18NEditor.
 
 
 
+**toolbar icon fixed**
+
+
+[832c58dbaf91442](https://github.com/elbosso/i18neditor/commit/832c58dbaf91442) Juergen Key *2019-10-05 11:06:12*
+
 **custom material icons now in use**
 
 
