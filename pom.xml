@@ -37,10 +37,10 @@ WENN SIE AUF DIE MOEGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WORDEN SIND.
   <modelVersion>4.0.0</modelVersion>
   <groupId>de.elbosso.tools</groupId>
   <artifactId>i18neditor</artifactId>
-  <version>1.2.0</version>
+  <version>1.3.0-SNAPSHOT</version>
     <scm>
         <developerConnection>scm:git:https://github.com/elbosso/i18neditor.git</developerConnection>
-      <tag>i18neditor-1.2.0</tag>
+      <tag>HEAD</tag>
   </scm>
     <properties>
         <project.custom.encoding>UTF-8</project.custom.encoding>
@@ -183,85 +183,85 @@ WENN SIE AUF DIE MOEGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WORDEN SIND.
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>algorithms</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>data</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>custommaterialgfx</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>documents</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>jedittextarea</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>materialgfx</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>model</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>model_i18n</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>ui</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>ui_i18n</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>util</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>util_i18n</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>util_annotations</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso.annotation.processors</groupId>
             <artifactId>beaninfo</artifactId>
-            <version>1.1.0</version>
+            <version>1.2.0-SNAPSHOT</version>
 			<scope>compile</scope>
         </dependency>
 
