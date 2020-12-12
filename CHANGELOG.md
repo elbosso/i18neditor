@@ -10,6 +10,16 @@ Changelog of I18NEditor.
 
 
 
+**added repo for EL BOSSOS releases**
+
+
+[67f2cee78d3e998](https://github.com/elbosso/i18neditor/commit/67f2cee78d3e998) Jürgen Key *2020-12-12 10:00:52*
+
+**preparations for automated maven release management**
+
+
+[6ee22f69a57369e](https://github.com/elbosso/i18neditor/commit/6ee22f69a57369e) Jürgen Key *2020-12-12 07:27:01*
+
 **maven central completely blocks http now**
 
 
