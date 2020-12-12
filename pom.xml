@@ -33,15 +33,15 @@ WEG SIE AUCH IMMER DURCH DIE BENUTZUNG DIESER SOFTWARE ENTSTANDEN SIND, SOGAR,
 WENN SIE AUF DIE MOEGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WORDEN SIND.
 -->
 <!-- build with: mvn -U package assembly:single -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>de.elbosso.tools</groupId>
   <artifactId>i18neditor</artifactId>
-  <version>1.2.0-SNAPSHOT</version>
+  <version>1.2.0</version>
     <scm>
         <developerConnection>scm:git:https://github.com/elbosso/i18neditor.git</developerConnection>
-    </scm>
+      <tag>i18neditor-1.2.0</tag>
+  </scm>
     <properties>
         <project.custom.encoding>UTF-8</project.custom.encoding>
         <project.custom.java.version>11</project.custom.java.version>
@@ -183,85 +183,85 @@ WENN SIE AUF DIE MOEGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WORDEN SIND.
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>algorithms</artifactId>
-            <version>1.1.0-SNAPSHOT</version>
+            <version>1.1.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>data</artifactId>
-            <version>1.1.0-SNAPSHOT</version>
+            <version>1.1.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>custommaterialgfx</artifactId>
-            <version>1.1.0-SNAPSHOT</version>
+            <version>1.1.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>documents</artifactId>
-            <version>1.1.0-SNAPSHOT</version>
+            <version>1.1.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>jedittextarea</artifactId>
-            <version>1.1.0-SNAPSHOT</version>
+            <version>1.1.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>materialgfx</artifactId>
-            <version>1.1.0-SNAPSHOT</version>
+            <version>1.1.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>model</artifactId>
-            <version>1.1.0-SNAPSHOT</version>
+            <version>1.1.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>model_i18n</artifactId>
-            <version>1.1.0-SNAPSHOT</version>
+            <version>1.1.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>ui</artifactId>
-            <version>1.1.0-SNAPSHOT</version>
+            <version>1.1.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>ui_i18n</artifactId>
-            <version>1.1.0-SNAPSHOT</version>
+            <version>1.1.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>util</artifactId>
-            <version>1.1.0-SNAPSHOT</version>
+            <version>1.1.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>util_i18n</artifactId>
-            <version>1.1.0-SNAPSHOT</version>
+            <version>1.1.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>util_annotations</artifactId>
-            <version>1.1.0-SNAPSHOT</version>
+            <version>1.1.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>de.elbosso.annotation.processors</groupId>
             <artifactId>beaninfo</artifactId>
-            <version>1.1.0-SNAPSHOT</version>
+            <version>1.1.0</version>
 			<scope>compile</scope>
         </dependency>
 
