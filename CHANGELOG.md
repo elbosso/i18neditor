@@ -10,6 +10,16 @@ Changelog of I18NEditor.
 
 
 
+**maven central completely blocks http now**
+
+
+[253d989f2fd256a](https://github.com/elbosso/i18neditor/commit/253d989f2fd256a) Jürgen Key *2020-01-24 17:39:01*
+
+**new version no longer has the nasty bug that prevented the treenodes from expanding when clicking on them**
+
+
+[73288399152efc1](https://github.com/elbosso/i18neditor/commit/73288399152efc1) Juergen Key *2019-11-02 06:25:37*
+
 **toolbar icon fixed**
 
 
