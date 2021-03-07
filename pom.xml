@@ -180,12 +180,7 @@ WENN SIE AUF DIE MOEGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WORDEN SIND.
 		</repository>
     </repositories>
     <dependencies>
-        <dependency>
-            <groupId>de.elbosso</groupId>
-            <artifactId>algorithms</artifactId>
-            <version>1.2.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
+
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>data</artifactId>
@@ -200,18 +195,6 @@ WENN SIE AUF DIE MOEGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WORDEN SIND.
         </dependency>
         <dependency>
             <groupId>de.elbosso</groupId>
-            <artifactId>documents</artifactId>
-            <version>1.2.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>de.elbosso</groupId>
-            <artifactId>jedittextarea</artifactId>
-            <version>1.2.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>de.elbosso</groupId>
             <artifactId>materialgfx</artifactId>
             <version>1.2.0-SNAPSHOT</version>
             <scope>compile</scope>
@@ -219,36 +202,6 @@ WENN SIE AUF DIE MOEGLICHKEIT EINES SOLCHEN SCHADENS HINGEWIESEN WORDEN SIND.
         <dependency>
             <groupId>de.elbosso</groupId>
             <artifactId>model</artifactId>
-            <version>1.2.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>de.elbosso</groupId>
-            <artifactId>model_i18n</artifactId>
-            <version>1.2.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>de.elbosso</groupId>
-            <artifactId>ui</artifactId>
-            <version>1.2.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>de.elbosso</groupId>
-            <artifactId>ui_i18n</artifactId>
-            <version>1.2.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>de.elbosso</groupId>
-            <artifactId>util</artifactId>
-            <version>1.2.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>de.elbosso</groupId>
-            <artifactId>util_i18n</artifactId>
             <version>1.2.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

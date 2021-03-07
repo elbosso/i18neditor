@@ -10,6 +10,11 @@ Changelog of I18NEditor.
 
 
 
+**preparations for automated maven release management**
+
+
+[bd58333e074d4bb](https://github.com/elbosso/i18neditor/commit/bd58333e074d4bb) Jürgen Key *2020-12-12 10:13:03*
+
 **added repo for EL BOSSOS releases**
 
 
