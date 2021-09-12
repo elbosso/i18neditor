@@ -3,6 +3,13 @@
 Changelog of I18NEditor.
 
 
+**repository locations fixed**
+
+
+[0350a7abcfd815e](https://github.com/elbosso/i18neditor/commit/0350a7abcfd815e) Jürgen Key *2021-03-07 07:27:43*
+
+
+
 **fixes #1**
 
 
