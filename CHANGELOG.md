@@ -3,6 +3,11 @@
 Changelog of I18NEditor.
 
 
+**change of repository location for de.elbosso artifacts**
+
+
+[d9d06af5026e4ce](https://github.com/elbosso/i18neditor/commit/d9d06af5026e4ce) Jürgen Key *2021-09-12 15:33:42*
+
 **repository locations fixed**
 
 

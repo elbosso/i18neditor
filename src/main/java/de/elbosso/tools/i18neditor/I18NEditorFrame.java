@@ -60,7 +60,7 @@ public class I18NEditorFrame extends javax.swing.JFrame
 					   ioexp.printStackTrace();
 				   }
 
-				   de.netsysit.util.ResourceLoader.setSize(de.netsysit.util.ResourceLoader.IconSize.small);
+				   de.netsysit.util.ResourceLoader.setSize(ResourceLoader.IconSize.small);
 				   try
 				   {
 					   new I18NEditorFrame(i18n.getString("I18NEditor.app.title"));
