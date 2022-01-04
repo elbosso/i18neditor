@@ -3,6 +3,11 @@
 Changelog of I18NEditor.
 
 
+**icon size issues fixed**
+
+
+[a22dbb250df63a3](https://github.com/elbosso/i18neditor/commit/a22dbb250df63a3) Juergen Key *2022-01-03 16:29:00*
+
 **change of repository location for de.elbosso artifacts**
 
 
