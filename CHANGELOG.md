@@ -3,6 +3,13 @@
 Changelog of I18NEditor.
 
 
+**re #2**
+
+
+[01d3b843e2479fc](https://github.com/elbosso/i18neditor/commit/01d3b843e2479fc) Juergen Key *2022-04-24 17:39:59*
+
+
+
 **dependency management**
 
 
