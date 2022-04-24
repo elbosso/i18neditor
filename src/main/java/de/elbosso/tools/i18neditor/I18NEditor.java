@@ -14,7 +14,7 @@ import java.util.logging.Logger;
 public class I18NEditor extends javax.swing.JPanel implements
 javax.swing.event.ListSelectionListener
 {
-	private final static org.apache.log4j.Logger CLASS_LOGGER = org.apache.log4j.Logger.getLogger(I18NEditor.class);
+	private final static org.slf4j.Logger CLASS_LOGGER =org.slf4j.LoggerFactory.getLogger(I18NEditor.class);
 	private final static java.util.ResourceBundle i18n=java.util.ResourceBundle.getBundle("de.elbosso.tools.i18n",java.util.Locale.getDefault());
 	private static final java.lang.String[] PROPERTIESSUFFIXES={"props","properties"};
 	private static final java.lang.String[] JAVASUFFIXES={"bsh","java"};
@@ -573,7 +573,7 @@ javax.swing.event.ListSelectionListener
 						buf.append('.');
 					buf.append(pathElements[i]);
 				}
-				if(CLASS_LOGGER.isTraceEnabled())CLASS_LOGGER.trace(buf);
+				if(CLASS_LOGGER.isTraceEnabled())CLASS_LOGGER.trace(buf.toString());
 				java.lang.String result=buf.toString();
 				java.util.List<java.lang.String> l=model.getAllPropertyNamesStartingWith(result);
 				for (String string : l)

@@ -3,6 +3,11 @@
 Changelog of I18NEditor.
 
 
+**dependency management**
+
+
+[cb44559f2ce5ebc](https://github.com/elbosso/i18neditor/commit/cb44559f2ce5ebc) Juergen Key *2022-01-04 07:35:08*
+
 **icon size issues fixed**
 
 

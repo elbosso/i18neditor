@@ -15,7 +15,7 @@ import java.io.IOException;
  */
 class Model extends de.netsysit.model.tree.I18NModel
 {
-	private final static org.apache.log4j.Logger CLASS_LOGGER = org.apache.log4j.Logger.getLogger(Model.class);
+	private final static org.slf4j.Logger CLASS_LOGGER =org.slf4j.LoggerFactory.getLogger(Model.class);
 	private boolean recurse=true;
 	private de.netsysit.ui.components.JTreeTable treetable;
 	private Config config;
