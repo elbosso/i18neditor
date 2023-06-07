@@ -310,7 +310,7 @@ javax.swing.event.ListSelectionListener
 			java.io.FileInputStream is=new java.io.FileInputStream(file);
 	//		java.io.InputStreamReader isr=new java.io.InputStreamReader(is);
 			java.io.ByteArrayOutputStream os=new java.io.ByteArrayOutputStream();
-			de.elbosso.util.Utilities.copyBetweenStreams(is, os);
+			de.elbosso.util.io.Utilities.copyBetweenStreams(is, os);
 			os.close();
 			is.close();
 			java.lang.String filecontent=new java.lang.String(os.toString());

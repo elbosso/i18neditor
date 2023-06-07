@@ -10,6 +10,13 @@ Changelog of I18NEditor.
 
 
 
+**dependency problem fixed**
+
+
+[52d038716820e9b](https://github.com/elbosso/i18neditor/commit/52d038716820e9b) Jürgen Key *2022-06-14 15:09:16*
+
+
+
 **re #2**
 
 

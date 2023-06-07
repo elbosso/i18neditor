@@ -74,7 +74,7 @@ class Model extends de.netsysit.model.tree.I18NModel
 									Process proc=Runtime.getRuntime().exec(new java.lang.String[]{command,aValue.toString(),from,to});
 									java.io.InputStream is=proc.getInputStream();
 									java.io.ByteArrayOutputStream baos=new java.io.ByteArrayOutputStream();
-									Utilities.copyBetweenStreams(is, baos);
+									de.elbosso.util.io.Utilities.copyBetweenStreams(is, baos);
 									baos.close();
 									is.close();
 									setValueAt(baos.toString(), node, i);
