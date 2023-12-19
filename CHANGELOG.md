@@ -10,6 +10,11 @@ Changelog of I18NEditor.
 
 
 
+**dependencies updated, project migrated to java 17**
+
+
+[a6c32b752aa55ab](https://github.com/elbosso/i18neditor/commit/a6c32b752aa55ab) Juergen Key *2023-06-07 18:04:32*
+
 **dependency problem fixed**
 
 
